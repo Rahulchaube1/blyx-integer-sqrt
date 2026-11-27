@@ -1,0 +1,28 @@
+{
+  "name": "blyx-integer-sqrt",
+  "displayName": "Integer Sqrt for Blyx",
+  "publisher": "RahulChaube",
+  "version": "0.1.1",
+  "description": "Return the exact floor of the square root of a nonnegative integer using division-safe binary search.",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.png",
+  "homepage": "https://nest.blyx-lang.space/packages/integer_sqrt.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rahulchaube1/blyx-integer-sqrt.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "blyx",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+use vendor::integer_sqrt::integer_sqrt;
+
+fn main() {
+    println!(integer_sqrt(26));
+}

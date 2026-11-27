@@ -1,0 +1,12 @@
+{
+  "integer_sqrt": {
+    "prefix": "integer_sqrt",
+    "body": "integer_sqrt(${1:number})",
+    "description": "Integer Sqrt \u00b7 Return the exact floor of the square root of a nonnegative integer using division-safe binary search."
+  },
+  "Import integer_sqrt": {
+    "prefix": "use_integer_sqrt",
+    "body": "use vendor::integer_sqrt::integer_sqrt;",
+    "description": "Import the installed Integer Sqrt module"
+  }
+}
